@@ -20,10 +20,10 @@ class BaseViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    func showToast(_ msg: String){
+    public func showToast(_ msg: String){
         view.makeToast(message: msg, duration: 2, position: HRToastPositionCenter as AnyObject, title: "提示")
     }
-    func showProgress(_ msg: String){
+    public func showProgress(_ msg: String){
         if(msg.isEmpty){
             presentWindow!.makeToastActivity()
         }else{
@@ -31,7 +31,7 @@ class BaseViewController: UIViewController {
         }
     }
     
-    func hideProgress() {
+    public func hideProgress() {
         presentWindow!.hideToastActivity()
     }
 }
