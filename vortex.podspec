@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.authors = { 'xiaozhuzhu101127' => '36136055@qq.com' }
 
-  s.source       = { :git => 'https://github.com/xiaozhuzhu101127/vortex.git', :tag => '1.0.1' }
+  s.source       = { :git => 'https://github.com/xiaozhuzhu101127/vortex.git', :tag => 'v1.0.1' }
 
 
 
