@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0BABA381F5E9FEA00FE94FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BABA371F5E9FEA00FE94FB /* AppDelegate.swift */; };
+		B0BABA3A1F5E9FEA00FE94FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BABA391F5E9FEA00FE94FB /* ViewController.swift */; };
+		B0BABA3D1F5E9FEA00FE94FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BABA3B1F5E9FEA00FE94FB /* Main.storyboard */; };
+		B0BABA3F1F5E9FEA00FE94FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0BABA3E1F5E9FEA00FE94FB /* Assets.xcassets */; };
+		B0BABA421F5E9FEA00FE94FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0BABA401F5E9FEA00FE94FB /* LaunchScreen.storyboard */; };
+		B0BABA4D1F5E9FEA00FE94FB /* vortexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BABA4C1F5E9FEA00FE94FB /* vortexTests.swift */; };
+		B0BABA581F5E9FEA00FE94FB /* vortexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BABA571F5E9FEA00FE94FB /* vortexUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0BABA491F5E9FEA00FE94FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BABA2C1F5E9FEA00FE94FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0BABA331F5E9FEA00FE94FB;
+			remoteInfo = vortex;
+		};
+		B0BABA541F5E9FEA00FE94FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0BABA2C1F5E9FEA00FE94FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0BABA331F5E9FEA00FE94FB;
+			remoteInfo = vortex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0BABA341F5E9FEA00FE94FB /* vortex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vortex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BABA371F5E9FEA00FE94FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0BABA391F5E9FEA00FE94FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0BABA3C1F5E9FEA00FE94FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0BABA3E1F5E9FEA00FE94FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0BABA411F5E9FEA00FE94FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0BABA431F5E9FEA00FE94FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BABA481F5E9FEA00FE94FB /* vortexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vortexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BABA4C1F5E9FEA00FE94FB /* vortexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vortexTests.swift; sourceTree = "<group>"; };
+		B0BABA4E1F5E9FEA00FE94FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BABA531F5E9FEA00FE94FB /* vortexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vortexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0BABA571F5E9FEA00FE94FB /* vortexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vortexUITests.swift; sourceTree = "<group>"; };
+		B0BABA591F5E9FEA00FE94FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0BABA311F5E9FEA00FE94FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BABA451F5E9FEA00FE94FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BABA501F5E9FEA00FE94FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0BABA2B1F5E9FEA00FE94FB = {
+			isa = PBXGroup;
+			children = (
+				B0BABA361F5E9FEA00FE94FB /* vortex */,
+				B0BABA4B1F5E9FEA00FE94FB /* vortexTests */,
+				B0BABA561F5E9FEA00FE94FB /* vortexUITests */,
+				B0BABA351F5E9FEA00FE94FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0BABA351F5E9FEA00FE94FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0BABA341F5E9FEA00FE94FB /* vortex.app */,
+				B0BABA481F5E9FEA00FE94FB /* vortexTests.xctest */,
+				B0BABA531F5E9FEA00FE94FB /* vortexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0BABA361F5E9FEA00FE94FB /* vortex */ = {
+			isa = PBXGroup;
+			children = (
+				B0BABA371F5E9FEA00FE94FB /* AppDelegate.swift */,
+				B0BABA391F5E9FEA00FE94FB /* ViewController.swift */,
+				B0BABA3B1F5E9FEA00FE94FB /* Main.storyboard */,
+				B0BABA3E1F5E9FEA00FE94FB /* Assets.xcassets */,
+				B0BABA401F5E9FEA00FE94FB /* LaunchScreen.storyboard */,
+				B0BABA431F5E9FEA00FE94FB /* Info.plist */,
+			);
+			path = vortex;
+			sourceTree = "<group>";
+		};
+		B0BABA4B1F5E9FEA00FE94FB /* vortexTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BABA4C1F5E9FEA00FE94FB /* vortexTests.swift */,
+				B0BABA4E1F5E9FEA00FE94FB /* Info.plist */,
+			);
+			path = vortexTests;
+			sourceTree = "<group>";
+		};
+		B0BABA561F5E9FEA00FE94FB /* vortexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0BABA571F5E9FEA00FE94FB /* vortexUITests.swift */,
+				B0BABA591F5E9FEA00FE94FB /* Info.plist */,
+			);
+			path = vortexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0BABA331F5E9FEA00FE94FB /* vortex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BABA5C1F5E9FEA00FE94FB /* Build configuration list for PBXNativeTarget "vortex" */;
+			buildPhases = (
+				B0BABA301F5E9FEA00FE94FB /* Sources */,
+				B0BABA311F5E9FEA00FE94FB /* Frameworks */,
+				B0BABA321F5E9FEA00FE94FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vortex;
+			productName = vortex;
+			productReference = B0BABA341F5E9FEA00FE94FB /* vortex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0BABA471F5E9FEA00FE94FB /* vortexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BABA5F1F5E9FEA00FE94FB /* Build configuration list for PBXNativeTarget "vortexTests" */;
+			buildPhases = (
+				B0BABA441F5E9FEA00FE94FB /* Sources */,
+				B0BABA451F5E9FEA00FE94FB /* Frameworks */,
+				B0BABA461F5E9FEA00FE94FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0BABA4A1F5E9FEA00FE94FB /* PBXTargetDependency */,
+			);
+			name = vortexTests;
+			productName = vortexTests;
+			productReference = B0BABA481F5E9FEA00FE94FB /* vortexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0BABA521F5E9FEA00FE94FB /* vortexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0BABA621F5E9FEA00FE94FB /* Build configuration list for PBXNativeTarget "vortexUITests" */;
+			buildPhases = (
+				B0BABA4F1F5E9FEA00FE94FB /* Sources */,
+				B0BABA501F5E9FEA00FE94FB /* Frameworks */,
+				B0BABA511F5E9FEA00FE94FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0BABA551F5E9FEA00FE94FB /* PBXTargetDependency */,
+			);
+			name = vortexUITests;
+			productName = vortexUITests;
+			productReference = B0BABA531F5E9FEA00FE94FB /* vortexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0BABA2C1F5E9FEA00FE94FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.vortex;
+				TargetAttributes = {
+					B0BABA331F5E9FEA00FE94FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7YZLN6Y257;
+						ProvisioningStyle = Automatic;
+					};
+					B0BABA471F5E9FEA00FE94FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7YZLN6Y257;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0BABA331F5E9FEA00FE94FB;
+					};
+					B0BABA521F5E9FEA00FE94FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7YZLN6Y257;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0BABA331F5E9FEA00FE94FB;
+					};
+				};
+			};
+			buildConfigurationList = B0BABA2F1F5E9FEA00FE94FB /* Build configuration list for PBXProject "vortex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0BABA2B1F5E9FEA00FE94FB;
+			productRefGroup = B0BABA351F5E9FEA00FE94FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0BABA331F5E9FEA00FE94FB /* vortex */,
+				B0BABA471F5E9FEA00FE94FB /* vortexTests */,
+				B0BABA521F5E9FEA00FE94FB /* vortexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0BABA321F5E9FEA00FE94FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BABA421F5E9FEA00FE94FB /* LaunchScreen.storyboard in Resources */,
+				B0BABA3F1F5E9FEA00FE94FB /* Assets.xcassets in Resources */,
+				B0BABA3D1F5E9FEA00FE94FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BABA461F5E9FEA00FE94FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BABA511F5E9FEA00FE94FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0BABA301F5E9FEA00FE94FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BABA3A1F5E9FEA00FE94FB /* ViewController.swift in Sources */,
+				B0BABA381F5E9FEA00FE94FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BABA441F5E9FEA00FE94FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BABA4D1F5E9FEA00FE94FB /* vortexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BABA4F1F5E9FEA00FE94FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BABA581F5E9FEA00FE94FB /* vortexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0BABA4A1F5E9FEA00FE94FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0BABA331F5E9FEA00FE94FB /* vortex */;
+			targetProxy = B0BABA491F5E9FEA00FE94FB /* PBXContainerItemProxy */;
+		};
+		B0BABA551F5E9FEA00FE94FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0BABA331F5E9FEA00FE94FB /* vortex */;
+			targetProxy = B0BABA541F5E9FEA00FE94FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0BABA3B1F5E9FEA00FE94FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BABA3C1F5E9FEA00FE94FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0BABA401F5E9FEA00FE94FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0BABA411F5E9FEA00FE94FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0BABA5A1F5E9FEA00FE94FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0BABA5B1F5E9FEA00FE94FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0BABA5D1F5E9FEA00FE94FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YZLN6Y257;
+				INFOPLIST_FILE = vortex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vortex.vortex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B0BABA5E1F5E9FEA00FE94FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7YZLN6Y257;
+				INFOPLIST_FILE = vortex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vortex.vortex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B0BABA601F5E9FEA00FE94FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7YZLN6Y257;
+				INFOPLIST_FILE = vortexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vortex.vortexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vortex.app/vortex";
+			};
+			name = Debug;
+		};
+		B0BABA611F5E9FEA00FE94FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7YZLN6Y257;
+				INFOPLIST_FILE = vortexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vortex.vortexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vortex.app/vortex";
+			};
+			name = Release;
+		};
+		B0BABA631F5E9FEA00FE94FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7YZLN6Y257;
+				INFOPLIST_FILE = vortexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vortex.vortexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = vortex;
+			};
+			name = Debug;
+		};
+		B0BABA641F5E9FEA00FE94FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7YZLN6Y257;
+				INFOPLIST_FILE = vortexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vortex.vortexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = vortex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0BABA2F1F5E9FEA00FE94FB /* Build configuration list for PBXProject "vortex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BABA5A1F5E9FEA00FE94FB /* Debug */,
+				B0BABA5B1F5E9FEA00FE94FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0BABA5C1F5E9FEA00FE94FB /* Build configuration list for PBXNativeTarget "vortex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BABA5D1F5E9FEA00FE94FB /* Debug */,
+				B0BABA5E1F5E9FEA00FE94FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0BABA5F1F5E9FEA00FE94FB /* Build configuration list for PBXNativeTarget "vortexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BABA601F5E9FEA00FE94FB /* Debug */,
+				B0BABA611F5E9FEA00FE94FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0BABA621F5E9FEA00FE94FB /* Build configuration list for PBXNativeTarget "vortexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0BABA631F5E9FEA00FE94FB /* Debug */,
+				B0BABA641F5E9FEA00FE94FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0BABA2C1F5E9FEA00FE94FB /* Project object */;
+}
