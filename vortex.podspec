@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.framework  = 'UIKit'
   s.requires_arc = true
 
-  s.dependency = 'Alamofire','SwiftyJSON'
+  s.dependencies = 'Alamofire','SwiftyJSON'
 
 end
