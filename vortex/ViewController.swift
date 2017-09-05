@@ -10,13 +10,13 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class ViewController: BaseViewController {
+open class ViewController: BaseViewController {
     var userName: String!
     var psd: String!
     var userId: String!
     var photoId: String!
     var name: String!
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         doLogin()
@@ -59,7 +59,7 @@ class ViewController: BaseViewController {
         
         
     }
-    override func didReceiveMemoryWarning() {
+    override open func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

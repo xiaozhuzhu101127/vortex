@@ -9,21 +9,21 @@ import UIKit
 import Foundation
 
 var ud: UserDefaults = UserDefaults.standard
-class BaseViewController: UIViewController {
+open class BaseViewController: UIViewController {
     var presentWindow : UIWindow?
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         UIView.hr_setToastThemeColor(color: UIColor.gray)
         presentWindow = UIApplication.shared.keyWindow
     }
-    override func didReceiveMemoryWarning() {
+    override open func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    public func showToast(_ msg: String){
+    open func showToast(_ msg: String){
         view.makeToast(message: msg, duration: 2, position: HRToastPositionCenter as AnyObject, title: "提示")
     }
-    public func showProgress(_ msg: String){
+    open func showProgress(_ msg: String){
         if(msg.isEmpty){
             presentWindow!.makeToastActivity()
         }else{
@@ -31,7 +31,7 @@ class BaseViewController: UIViewController {
         }
     }
     
-    public func hideProgress() {
+    open func hideProgress() {
         presentWindow!.hideToastActivity()
     }
 }
